@@ -23,7 +23,7 @@ class Block {
 
     static mineBlock(previousBlock, data) {
         const timestamp = Date.now();
-        const previousHash = previousBlock.previousHash;
+        const previousHash = previousBlock.hash;
         const hash = Block.hash(timestamp, previousHash, data);
 
         return new this(timestamp, previousHash, hash, data);
