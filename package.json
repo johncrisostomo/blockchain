@@ -1,22 +1,22 @@
 {
-  "name": "blockchain",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/johncrisostomo/blockchain.git"
-  },
-  "author": "John Crisostomo",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/johncrisostomo/blockchain/issues"
-  },
-  "homepage": "https://github.com/johncrisostomo/blockchain#readme",
-  "dependencies": {
-    "nodemon": "^1.17.3"
-  }
+    "name": "blockchain",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "nodemon test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/johncrisostomo/blockchain.git"
+    },
+    "author": "John Crisostomo",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/johncrisostomo/blockchain/issues"
+    },
+    "homepage": "https://github.com/johncrisostomo/blockchain#readme",
+    "dependencies": {
+        "nodemon": "^1.17.3"
+    }
 }
