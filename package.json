@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "nodemon test.js"
+        "test": "jest --watchAll"
     },
     "repository": {
         "type": "git",
@@ -17,7 +17,10 @@
     },
     "homepage": "https://github.com/johncrisostomo/blockchain#readme",
     "dependencies": {
-        "crypto-js": "^3.1.9-1",
+        "crypto-js": "^3.1.9-1"
+    },
+    "devDependencies": {
+        "jest": "^22.4.3",
         "nodemon": "^1.17.3"
     }
 }
